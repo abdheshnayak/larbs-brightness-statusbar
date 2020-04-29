@@ -1,0 +1,8 @@
+#PATH .config/i3blocks/config
+
+[brightness]
+interval=once
+command=brightness
+signal=10
+label=🔆
+
