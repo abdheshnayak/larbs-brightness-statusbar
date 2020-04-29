@@ -64,4 +64,4 @@ By finding the brightness file in your system may present in
 ## Author
 * **Abdhesh Nayak** - [Github](https://github.com/abdheshnayak), [LinkedIn](https://www.linkedin.com/in/abdhesh-nayak/)
 
-See also the list of [contributors](/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/abdheshnayak/larbs-brightness-statusbar/graphs/contributors) who participated in this project.
