@@ -41,8 +41,6 @@ File_Name="/sys/class/backlight/intel_backlight/brightness"
 x=$(cat $File_Name)
 ((x=x/75))
 printf " %s%s%%\\n" "$x"
-label=🔆
-
 ```
 
 ## Note:
