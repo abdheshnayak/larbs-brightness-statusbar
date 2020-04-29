@@ -59,6 +59,22 @@ By finding the brightness file in your system may present in
 ```
 "/sys/class/......."
 ```
+
+## find line starts with following line in the ".config/i3/config"
+
+find line starts with following line in the ".config/i3/config" and add "&& pkill -RTMIN+10 i3blocks" at the end of the line
+
+```
+bindsym XF86MonBrightnessDown
+bindsym XF86MonBrightnessUp
+```
+like
+
+```
+bindsym XF86MonBrightnessDown	exec --no-startup-id "[yourCommand]" && pkill -RTMIN+10 i3blocks
+bindsym XF86MonBrightnessUp	exec --no-startup-id "[yourCommand]" && pkill -RTMIN+10 i3blocks
+```
+
 ## Author
 * **Abdhesh Nayak** - [Github](https://github.com/abdheshnayak), [LinkedIn](https://www.linkedin.com/in/abdhesh-nayak/)
 
